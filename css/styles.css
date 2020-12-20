@@ -111,6 +111,12 @@ a:hover {
   text-align: left;
 }
 
+/* .form {
+  width: 70%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+} */
+
 .intro {
   width: 60%;
   margin: auto;
@@ -155,7 +161,7 @@ a:hover {
   /* margin-left: 30px; */
 }
 
-.butn {
+/* .butn {
   background: #11CDD4;
   background-image: -webkit-linear-gradient(top, #11CDD4, #11999D);
   background-image: -moz-linear-gradient(top, #11CDD4, #11999D);
@@ -172,7 +178,34 @@ a:hover {
   text-decoration: none;
 }
 
-.butn:hover {
+.butn:active {
+  background: #30E3CB;
+  background-image: -webkit-linear-gradient(top, #30E3CB, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30E3CB, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30E3CB, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30E3CB, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30E3CB, #2bc4ad);
+  text-decoration: none;
+} */
+
+butn {
+  background: #11CDD4;
+  background-image: -webkit-linear-gradient(top, #11CDD4, #11999D);
+  background-image: -moz-linear-gradient(top, #11CDD4, #11999D);
+  background-image: -ms-linear-gradient(top, #11CDD4, #11999D);
+  background-image: -o-linear-gradient(top, #11CDD4, #11999D);
+  background-image: linear-gradient(to bottom, #11CDD4, #11999D);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+butn:active {
   background: #30E3CB;
   background-image: -webkit-linear-gradient(top, #30E3CB, #2bc4ad);
   background-image: -moz-linear-gradient(top, #30E3CB, #2bc4ad);
@@ -181,6 +214,14 @@ a:hover {
   background-image: linear-gradient(to bottom, #30E3CB, #2bc4ad);
   text-decoration: none;
 }
+
+
+
+
+
+
+
+
 
 @media (max-width: 1024px) {
   h1 {
@@ -203,3 +244,17 @@ a:hover {
     font-size: 0.8rem;
   }
 }
+
+
+form,input,textarea {
+  font-size: 1.2rem;
+}
+
+/* button {
+  font-size: 1.2rem;
+  background-color:#e4f9f5;
+  font-family: 'Montserrat', sans-serif;
+  border-radius: 5px;
+} */
+
+
