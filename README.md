@@ -11,7 +11,7 @@ It was one of my first projects while learning how to structure content and appl
 - HTML5  
 - CSS3
 
-## How to View
+## How to Run or View
 1. Clone or download the repository.
 2. Open `index.html` in your browser to view the page.
 
