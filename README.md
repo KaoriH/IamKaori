@@ -7,6 +7,8 @@ It was one of my first projects while learning how to structure content and appl
 > 🧠 This project was part of my early web development learning journey.  
 > It helped me understand the foundational concepts of layout, colors, and typography.
 
+> This portfolio site also includes links to other individual projects I have worked on.
+
 ## Technologies Used
 - HTML5  
 - CSS3
